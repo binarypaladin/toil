@@ -1,0 +1,30 @@
+ClassAndModuleChildren:
+  Exclude:
+    - 'spec/**/*.rb'
+Documentation:
+  Enabled: false
+Layout/EmptyLineAfterGuardClause:
+  Enabled: false
+Metrics/AbcSize:
+  Enabled: false
+Metrics/LineLength:
+  Max: 100
+  IgnoredPatterns: ['\A#']
+Metrics/MethodLength:
+  Max: 20
+Metrics/ParameterLists:
+  CountKeywordArgs: false
+Naming/MemoizedInstanceVariableName:
+  Enabled: false
+Naming/UncommunicativeMethodParamName:
+  Enabled: false
+Style/Alias:
+  Enabled: false
+Style/ClassVars:
+  Enabled: false
+Style/LambdaCall:
+  Enabled: false
+Style/MethodMissingSuper:
+  Enabled: false
+Style/MissingRespondToMissing:
+  Enabled: false
